@@ -1,0 +1,21 @@
+
+package pkg2120180149.sk01.pbo.ti20192020.pkg3.pkg4.pkg04;
+public class SK01PBOTI201920203404 {
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int x,y,z,a;
+        for(x=1; x <= 10; x++){
+            for(y=9; y >= x; y--){
+                System.out.print(" ");
+            }
+            for(z=1; z <= x; z++){
+                System.out.print("4");
+            }
+            for(a=1; a <= x-1; a++){
+                System.out.print("4");
+            }
+            System.out.println();
+        }
+    }
+    
+}
